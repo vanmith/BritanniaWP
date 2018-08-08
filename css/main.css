@@ -20,6 +20,11 @@ Header
 	height: 35px;
 }
 
+#top-bar ul li a {
+	color: #fff;
+	line-height: 35px;
+}
+
 header {
 	background-color: #fff;
 }
@@ -28,9 +33,12 @@ header #header-inner {
 	padding: 10px 15px;
 }
 
-header #header-inner ul li a {
-	color: #333;
+header #phone-number {
+	font-size: 32px;
 	line-height: 90px;
-	font-size: 17px;
-	font-weight: bold;
+	color: #333;
+}
+
+header #phone-number a {
+	color: #333;
 }

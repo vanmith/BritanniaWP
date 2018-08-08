@@ -19,7 +19,14 @@
 					
 				</div>
 				<div class="col-lg-6">
-					
+					<ul class="list-inline pull-right">
+						<li><a href="/special-offers">Special Offers</a></li>
+						<li><a href="/about">About Us</a></li>
+						<li><a href="/news">News</a></li>
+						<li><a href="/guide-lease">Guide to Leasing</a></li>
+						<li><a href="/comparison-tool">Comparison Tool</a></li>
+						<li><a href="/contact">Contact Us</a></li>
+					</ul>
 				</div>
 			</div>
 		</div>
@@ -34,11 +41,18 @@
 					
 				</div>
 				<div class="col-lg-4">
-					
+					<span id="phone-number" class="pull-right">Call: <a href="tel:01614407272">0161 440 7272</a></span>
 				</div>
 			</div>
 		</div>
 	</header>
+	<div id="nav-bar">
+		<nav id="main-nav">
+			<ul class="second-nav">
+				<li><a href=""></a></li>
+			</ul>
+		</nav>
+	</div>
 	<div class="container">
 		
 	</div>
