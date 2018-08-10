@@ -15,18 +15,23 @@ Header
 *********/
 
 #top-bar {
-	background-color: #333;
-	color: #fff;
+	background-color: #f1f1f1;
+	color: #333;
 	height: 35px;
 }
 
 #top-bar ul li a {
-	color: #fff;
+	color: #333;
 	line-height: 35px;
+	font-size: 12px;
 }
 
 header {
 	background-color: #fff;
+}
+
+header #logo {
+	width: 200px;
 }
 
 header #header-inner {
@@ -34,11 +39,222 @@ header #header-inner {
 }
 
 header #phone-number {
-	font-size: 32px;
-	line-height: 90px;
-	color: #333;
+	font-size: 21px;
+	line-height: 55px;
+	color: #c90005;
+	letter-spacing: 2px;
 }
 
 header #phone-number a {
+	color: #c90005;
+}
+
+#top-bar .top-car-nav {
 	color: #333;
+	font-size: 12px;
+	line-height: 35px;
+	padding: 15px 20px;
+}
+
+#top-bar .top-car-nav-active {
+	background-color: #fff;
+	font-size: 16px;
+	color: #c90005;
+}
+
+header #trustpilot {
+	height: 64px;
+	margin: 0 auto;
+	display: block;
+}
+
+#nav-bar {
+    background-color: #333;
+    height: 50px;
+    border-top: 2px solid #c90005;
+}
+
+#main-nav {
+	width: 100%;
+}
+
+#main-nav ul li{
+	line-height: 47px;
+	width: 19%;
+	text-align: center;
+	border-right: 1px solid #fff;
+}
+
+#main-nav ul li a {
+	color: #fff;
+	text-align: center;
+	font-weight: bolder;
+	font-size: 16px;
+	transition: color 1s;
+}
+
+#main-nav ul li a .fas {
+	padding-left: 15px;
+	font-size: 18px;
+}
+
+#main-nav ul li a:hover {
+	color: #c90005;
+	text-decoration: none;
+}
+
+/**********
+Homepage
+**********/
+
+#top-strap-ad {
+	height: 550px;
+	background: url(/wp-content/themes/BritanniaWP/img/bmw-m5.jpg); 
+	background-size: cover;
+	background-position: center;
+}
+
+#top-strap-ad h1#main-heading {
+	font-size: 34px;
+	color: #fff;
+	padding-top: 150px;
+	font-weight: 800;
+}
+
+#top-strap-ad span#main-subheading {
+	color: #fff;
+	font-size: 22px;
+}
+
+#top-strap-ad button#main-button {
+	padding: 10px 15px;
+	border: none;
+	border-bottom: 3px solid #b00004;
+	background-color: #de0308;
+	color: #fff;
+	border-radius: 5px;
+	margin-top: 15px;
+	transition: background-color 1s;
+}
+
+#top-strap-ad button#main-button:hover {
+	background-color: #b00004;
+}
+
+#top-strap-ad-bottom-bar {
+	background-color: #c90005;
+	height: 50px;
+}
+
+#top-strap-ad-bottom-bar-pros {
+    color: #fff;
+    line-height: 50px;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.fas.fa-thumbs-up {
+    background-color: #fff;
+    border-radius: 100%;
+    padding: 8px;
+    color: #c90005;
+    font-size: 18px;
+}
+
+#main-content-wrapper {
+	margin-top: 25px;
+}
+
+#main-content-wrapper h2 {
+	font-weight: 800;
+	letter-spacing: 2px;
+	font-size: 32px;
+}
+
+#main-content-wrapper p {
+	font-size: 14px;
+	text-align: justify;
+}
+
+#main-content-wrapper h5 {
+	font-weight: 800;
+	letter-spacing: 2px;
+	font-size: 14px;
+	padding: 20px 0 0 0;
+}
+
+#timeline {
+	background-image: url(/wp-content/themes/BritanniaWP/img/tick.svg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	padding-left: 91px;
+	margin: 50px 0;
+}
+
+#timeline:first-of-type {
+	margin-top: 20px;
+}
+
+.timeline-title {
+    font-weight: 800;
+    color: #c90005;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+#special-offers {
+	height: 250px;
+	background-image: url(/wp-content/themes/BritanniaWP/img/special.jpg);
+	padding: 165px 15px 0 0;
+	box-shadow: inset -10px 0px 54px -21px rgba(0,0,0,0.75);
+}
+
+.special-offers-wrapper {
+    width: 45%;
+    float: right;
+    bottom: 0;
+    border-right: 5px solid #c90005;
+    padding: 0 15px;
+    text-align: right;
+}
+
+.special-offers-title {
+    color: #fff;
+    font-size: 32px;
+    font-weight: 800;
+}
+
+.special-offers-title-sub {
+    color: #fff;
+    font-size: 17px;
+	letter-spacing: 3px;
+}
+
+
+#about-us {
+	height: 250px;
+	background-image: url(/wp-content/themes/BritanniaWP/img/about.jpg);
+	padding: 15px 0 0 15px ;
+	box-shadow: inset 10px 0px 54px -21px rgba(0,0,0,0.75);
+}
+
+.special-offers-wrapper-two {
+    width: 45%;
+    float: left;
+    bottom: 0;
+    border-left: 5px solid #c90005;
+    padding: 0 15px;
+    text-align: left;
+}
+
+.special-offers-title-two {
+    color: #fff;
+    font-size: 32px;
+    font-weight: 800;
+}
+
+.special-offers-title-sub-two {
+    color: #fff;
+    font-size: 17px;
+	letter-spacing: 3px;
 }
