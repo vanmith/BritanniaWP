@@ -43,6 +43,7 @@ header #phone-number {
 	line-height: 55px;
 	color: #c90005;
 	letter-spacing: 2px;
+	text-align: right;
 }
 
 header #phone-number a {
@@ -257,4 +258,95 @@ Homepage
     color: #fff;
     font-size: 17px;
 	letter-spacing: 3px;
+}
+
+/**********
+Dropdowns
+**********/
+
+
+.dropdown-content {
+    cursor: auto;
+    color: #000;
+    background-color: #fff;
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    margin: 0;
+    padding: 0;
+    z-index: 1;
+}
+
+.show-block, .show {
+    display: block !important;
+}
+
+
+.manu-logo img {
+	width: 50px;
+}
+
+.manu-logo {
+	padding: 10px 15px;
+	margin: 10px 15px;
+	line-height: 20px!important;
+}
+
+.manu-logo a {
+	color: #333!important;
+	text-align: center!important;
+	font-size: 9px!important;
+}
+
+a.manu-all {
+	color: #333!important;
+	font-size: 12px!important;
+	font-weight: lighter!important;
+	text-decoration: underline!important;
+}
+
+@media only screen and (max-width: 1000px) {
+	#nav-bar {
+		min-height: 50px;
+		height: 100%;
+	}
+	#main-nav ul li {
+		width: 100%;
+		text-align: left;
+		border-right: none;
+		border-bottom: 1px solid #fff;
+		padding: 0 20px;
+	}
+	.second-nav {
+		display: none;
+	}
+	a.responsivenavopener {	
+	    float: right;
+	    line-height: 50px;
+	    color: #fff;
+	    padding-right: 20px;
+	}
+	#top-bar {
+		display: none;
+	}
+	#logo {
+		margin: 0 auto;
+		display: block;
+	}
+	#phone-number {
+		text-align: center!important;
+	}
+	.manu-logo {
+		width: 40%!important;
+	}
+	#top-strap-ad-bottom-bar {
+		min-height: 50px!important;
+		height: 100%!important;
+	}
+}
+
+@media only screen and (min-width: 1000px) {
+	.responsivenavopener {
+		display: none;
+	}
 }
