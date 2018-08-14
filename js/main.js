@@ -42,3 +42,4 @@ function responsiveNav() {
         x.className = x.className.replace(" show", "");
     }
 }
+

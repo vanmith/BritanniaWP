@@ -18,13 +18,22 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-4">
-				<span id="top-strap-ad-bottom-bar-pros"><i class="fas fa-thumbs-up"></i> Price Match Promise</span>
+				<div class="bottom-bar-pros">
+					<span class="bottom-bar-pros-title">Price Match Promise</span><br>
+					<span class="bottom-bar-pros-sub">We will beat any quote you get no matter what.</span>
+				</div>
 			</div>
 			<div class="col-lg-4">
-				<span id="top-strap-ad-bottom-bar-pros"><i class="fas fa-thumbs-up"></i> Price Match Promise</span>
+				<div class="bottom-bar-pros">
+					<span class="bottom-bar-pros-title">Price Match Promise</span><br>
+					<span class="bottom-bar-pros-sub">We will beat any quote you get no matter what.</span>
+				</div>
 			</div>
 			<div class="col-lg-4">
-				<span id="top-strap-ad-bottom-bar-pros"><i class="fas fa-thumbs-up"></i> Price Match Promise</span>
+				<div class="bottom-bar-pros">
+					<span class="bottom-bar-pros-title">Price Match Promise</span><br>
+					<span class="bottom-bar-pros-sub">We will beat any quote you get no matter what.</span>
+				</div>
 			</div>
 		</div>
 	</div>
@@ -81,14 +90,23 @@
 		</div>
 	</div>
 	<div class="row">
-		<div class="col-lg-4">
-			
+		<div class="col-lg-4" id="about-leasing">
+			<div class="about-leasing-wrapper">
+				<span class="about-leasing-wrapper-title">All About Leasing</span><br>
+				<span class="about-leasing-wrapper-sub">Learn all you need to about leasing a car here</span>
+			</div>
 		</div>
-		<div class="col-lg-4">
-			
+		<div class="col-lg-4" id="van-leasing">
+			<div class="van-leasing-wrapper">
+				<span class="van-leasing-wrapper-title">Van Lease Deals</span><br>
+				<span class="van-leasing-wrapper-sub">We can help you lease a van for business or personal use</span>
+			</div>
 		</div>
-		<div class="col-lg-4">
-			
+		<div class="col-lg-4" id="electric-leasing">
+			<div class="electric-leasing-wrapper">
+				<span class="electric-leasing-wrapper-title">Electric Cars</span><br>
+				<span class="electric-leasing-wrapper-sub">Go electric with one of our amazing electric car lease deals</span>
+			</div>
 		</div>
 	</div>
 </div>

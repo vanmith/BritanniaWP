@@ -33,7 +33,7 @@
 			</div>
 		</div>
 	</div>
-	<header>
+	<header class="container-fluid">
 		<div id="header-inner" class="container">
 			<div class="row">
 				<div class="col-lg-6">
@@ -109,15 +109,16 @@
 						<li>
 							<a onclick="modSearch()">Model Search <i class="fas fa-angle-right"></i></a>
 							<div id="modSearch" class="dropdown-content">
-							    <ul class="list-inline">
-							    	<li class="manu-logo">
-							    		<a href="#">
-							    			<img src="<?php echo get_template_directory_uri(); ?>/img/logos/bmw.png">
-							    			BMW
-							    		</a>
-							    	</li>
-							    </ul>
-							    <a href="#" class="manu-all">Browse All Manufacturers</a>
+							    <p>Manufacturer</p>
+							    <select>
+							    	<option>---</option>
+							    	<option>BMW</option>
+							    	<option>Merc</option>
+							    </select>
+							    <p>Model</p>
+							    <select>
+							    	<option>---</option>
+							    </select>
 						  	</div>
 						</li>
 						<li>
