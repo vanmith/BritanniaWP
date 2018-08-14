@@ -453,6 +453,27 @@ Box Section
 	font-weight: 800;
 }
 
+#five-car-section {
+	margin: 25px 0;
+}
+
+/**********
+Home About
+**********/
+
+.about-leasing-heading {
+    text-align: center;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 25px;
+}
+
+#home-about-section p {
+    margin: 20px 25px;
+    text-align: justify;
+    line-height: 30px;
+}
+
 
 
 
