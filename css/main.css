@@ -7,7 +7,7 @@
 }
 
 body {
-	background-color: #f1f1f1;
+	background-color: #fff;
 }
 
 /*********
@@ -291,7 +291,7 @@ Homepage
 #main-content-wrapper p {
 	font-size: 14px;
 	text-align: justify;
-	line-height: 32px;
+	line-height: 22px;
 }
 
 #main-content-wrapper h5 {
@@ -471,10 +471,100 @@ Home About
 #home-about-section p {
     margin: 20px 25px;
     text-align: justify;
-    line-height: 30px;
+    line-height: 22px;
+}
+
+#home-about-section h4{
+	margin: 20px 25px;
+	font-weight: 600;
+	font-family: 'Roboto', Sans-serif;
 }
 
 
+.manulink img {
+    padding: 10px 15px;
+    width: 100%;
+}
 
+.manulink p {
+    text-align: center;
+    color: #333;
+    font-weight: 600;
+    text-decoration: underline;
+}
 
+button#main-button {
+	padding: 10px 15px;
+	border: none;
+	border-bottom: 3px solid #b00004;
+	background-color: #de0308;
+	color: #fff;
+	border-radius: 5px;
+	margin-top: 15px;
+	transition: background-color 1s;
+	margin-left: 25px;
+	margin-bottom: 20px;
+}
 
+button#main-button:hover {
+	background-color: #b00004;
+}
+
+.manulink-title h3 {
+	text-align: center;
+	font-size: 26px;
+}
+
+.change-background {
+	background-color: #f1f1f1;
+	margin: 50px 0;
+}
+
+.faqs h2 {
+	text-align: center;
+	font-weight: 700;
+	font-size: 28px;
+}
+
+.faq h3 {
+	font-size: 20px;
+	font-weight: 700;
+}
+
+.faq_question {
+	margin: 0px;
+	padding: 0px 0px 5px 0px;
+	display: inline-block;
+	cursor: pointer;
+	font-weight: bold;
+}
+
+.faq_question h3 {
+	font-size: 20px;
+
+}
+
+.faq_answer_container {
+	height: 0px;
+	overflow: hidden;
+	padding: 0px;
+}
+
+.faq {
+	border-bottom: 1px solid #333;
+	margin: 25px 15px;
+	padding: 15px 0;
+}
+
+.faqs a {
+    padding: 10px 15px;
+    color: #b00004;
+    text-decoration: underline;
+    font-size: 17px;
+}
+
+.testimonials h2 {
+	text-align: center;
+	font-weight: 700;
+	font-size: 28px;
+}
