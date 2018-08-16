@@ -246,6 +246,7 @@ Homepage
 	border-radius: 5px;
 	margin-top: 15px;
 	transition: background-color 1s;
+	margin-left: 0;
 }
 
 #top-strap-ad button#main-button:hover {
@@ -275,6 +276,7 @@ Homepage
     background-size: contain;
     background-repeat: no-repeat;
     background-position-x: 5px;
+    margin: 10px 0;
 }
 
 
@@ -590,9 +592,9 @@ button#main-button:hover {
 	padding: 10px 15px;
 	margin: 60px 0;
 	background-color: red;
-	color: #fff;
+	color: #de0308;
 	border-radius: 5px;
-	border-bottom: 4px solid darkred;
+	border-bottom: 4px solid #b00004;
 	text-align: center;
 	width: 100%;
 	display: inline-block;
