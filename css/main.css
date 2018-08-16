@@ -568,3 +568,56 @@ button#main-button:hover {
 	font-weight: 700;
 	font-size: 28px;
 }
+
+.service-box {
+    background-image: url(/wp-content/themes/BritanniaWP/img/service.jpg);
+    padding: 90px 15px;
+    margin: 10px;
+    height: 100%;
+}
+
+.service-box h4 {
+	color: #fff;
+	text-align: center;
+}
+
+.service-box p {
+	color: #fff;
+	text-align: center;
+}
+
+.service-box a {
+	padding: 10px 15px;
+	margin: 60px 0;
+	background-color: red;
+	color: #fff;
+	border-radius: 5px;
+	border-bottom: 4px solid darkred;
+	text-align: center;
+	width: 100%;
+	display: inline-block;
+}
+
+#testimonials {
+    background-color: #c0c0c0;
+    padding: 10px 15px;
+    border-radius: 5px;
+    border-bottom: 4px solid #838383;
+}
+
+#testimonials-bottom {
+    height: 44px;
+    width: 34px;
+    background-color: #c0c0c0;
+    margin: 0 25px;
+    top: -4px;
+    position: inherit;
+    -webkit-clip-path: polygon(1px -6px, 61.76% -42px, 165.59% -83.09%, -32px 211.97%);
+    clip-path: polygon(1px -6px, 61.76% -42px, 165.59% -83.09%, -32px 211.97%);
+    border: 3px solid #838383;
+    border-top-color: rgb(131, 131, 131);
+    border-top-style: solid;
+    border-top-width: 3px;
+    border-top: none;
+    right: 10px;
+}
