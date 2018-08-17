@@ -214,6 +214,13 @@ a.manu-all {
 }
 
 
+/*********
+Car Slider
+**********/
+
+
+
+
 /**********
 Homepage
 **********/
@@ -223,6 +230,12 @@ Homepage
 	background: url(/wp-content/themes/BritanniaWP/img/bmw-m5.jpg); 
 	background-size: cover;
 	background-position: center;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px 0;
+    box-shadow: inset 0px 0px 200px 1px #2f2f2fb5;
 }
 
 #top-strap-ad h1#main-heading {
@@ -326,6 +339,61 @@ Homepage
     line-height: 20px !important;
 }
 
+/************
+4 Learn More
+************/
+
+.five-boxes {
+	background-image: url(/wp-content/themes/BritanniaWP/img/scroll.png);
+    min-height: 250px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px 0;
+    box-shadow: inset 0px 0px 200px 1px #2f2f2fb5;
+}
+
+.moreinfo-wrapper {
+	background: #ddd;
+	border-radius: 5px;
+}
+
+.moreinfo-wrapper img {
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	width: 100%;
+}
+
+.moreinfo-inner {
+	padding: 10px 15px;
+}
+
+.moreinfo-inner h3 {
+	text-align: left;
+	font-weight: 700;
+	font-size: 22px;
+	margin-top: 2px;
+}
+
+.moreinfo-inner p {
+	text-align: left;
+}
+
+.learn-more-button {
+    padding: 10px 15px;
+    background-color: #de0308;
+    color: #fff;
+    border-radius: 5px;
+    width: 100%;
+    border: none;
+    border-bottom: 3px solid #b00004;
+    transition: background-color 1s;
+}
+
+.learn-more-button:hover {
+	background-color: #b00004;
+}
 
 /**********
 Box Section
@@ -465,9 +533,8 @@ Home About
 
 .about-leasing-heading {
     text-align: center;
-    font-weight: 400;
-    text-transform: uppercase;
-    font-size: 25px;
+	font-weight: 700;
+	font-size: 28px;
 }
 
 #home-about-section p {
@@ -519,7 +586,14 @@ button#main-button:hover {
 
 .change-background {
 	background-color: #f1f1f1;
-	margin: 50px 0;
+}
+
+/***********
+FAQs
+************/
+
+.faqs {
+	padding: 35px 0;
 }
 
 .faqs h2 {
@@ -565,11 +639,31 @@ button#main-button:hover {
     font-size: 17px;
 }
 
+/***********
+Testimonials
+************/
+
 .testimonials h2 {
 	text-align: center;
 	font-weight: 700;
 	font-size: 28px;
+	color: #fff;
 }
+
+.parallax {
+    background-image: url(/wp-content/themes/BritanniaWP/img/scroll.png);
+    min-height: 250px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px 0;
+    box-shadow: inset 0px 0px 200px 1px #2f2f2fb5;
+}
+
+/***********
+Services
+************/
 
 .service-box {
     background-image: url(/wp-content/themes/BritanniaWP/img/service.jpg);
@@ -622,4 +716,33 @@ button#main-button:hover {
     border-top-width: 3px;
     border-top: none;
     right: 10px;
+    color: #fff;
+}
+
+#blog-wrapper {
+    border: 1px solid #333;
+    border-radius: 5px;
+    background-color: #d5d5d5;
+}
+
+#blog-wrapper img {
+	width: 100%;
+}
+
+#blog-wrapper h3 {
+    padding: 0 10px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+#blog-wrapper p {
+    padding: 0 10px;
+    text-align: justify;
+    padding-top: 0;
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.blogger {
+	margin-bottom: 50px;
 }

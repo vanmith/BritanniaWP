@@ -6,7 +6,7 @@ Template Name: Homepage
 
 <?php get_header(); ?>
 
-<div class="container-fluid" id="top-strap-ad">
+<div class="container-fluid" id="top-strap-ad" >
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-8">
@@ -80,7 +80,7 @@ Template Name: Homepage
 		</div>
 	</div>
 </div>
-<div class="container-fluid" id="five-car-section">
+<!--<div class="container-fluid" id="five-car-section">
 	<div class="row">
 		<div class="col-lg-6" id="special-offers">
 			<div class="special-offers-wrapper">
@@ -112,6 +112,50 @@ Template Name: Homepage
 			<div class="electric-leasing-wrapper">
 				<span class="electric-leasing-wrapper-title">Electric Cars</span><br>
 				<span class="electric-leasing-wrapper-sub">Go electric with one of our amazing electric car lease deals</span>
+			</div>
+		</div>
+	</div>
+</div>-->
+<div class="container-fluid five-boxes">
+	<div class="container">
+		<div class="col-lg-3">
+			<div class="moreinfo-wrapper">
+				<img src="<?php echo get_template_directory_uri(); ?>/img/about-us.png" alt="About Us">
+				<div class="moreinfo-inner">
+					<h3>About Us</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos ullam fuga, modi ad quaerat, consequatur iure, quia quo dolor explicabo fugiat quod ut soluta omnis asperiores. Alias ut, voluptates delectus.</p>
+					<button href="#" class="learn-more-button">Learn More</button>
+				</div>
+			</div>
+		</div>
+		<div class="col-lg-3">
+			<div class="moreinfo-wrapper">
+				<img src="<?php echo get_template_directory_uri(); ?>/img/about-us.png" alt="About Us">
+				<div class="moreinfo-inner">
+					<h3>About Us</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos ullam fuga, modi ad quaerat, consequatur iure, quia quo dolor explicabo fugiat quod ut soluta omnis asperiores. Alias ut, voluptates delectus.</p>
+					<button href="#" class="learn-more-button">Learn More</button>
+				</div>
+			</div>
+		</div>
+		<div class="col-lg-3">
+			<div class="moreinfo-wrapper">
+				<img src="<?php echo get_template_directory_uri(); ?>/img/about-us.png" alt="About Us">
+				<div class="moreinfo-inner">
+					<h3>About Us</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos ullam fuga, modi ad quaerat, consequatur iure, quia quo dolor explicabo fugiat quod ut soluta omnis asperiores. Alias ut, voluptates delectus.</p>
+					<button href="#" class="learn-more-button">Learn More</button>
+				</div>
+			</div>
+		</div>
+		<div class="col-lg-3">
+			<div class="moreinfo-wrapper">
+				<img src="<?php echo get_template_directory_uri(); ?>/img/about-us.png" alt="About Us">
+				<div class="moreinfo-inner">
+					<h3>About Us</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos ullam fuga, modi ad quaerat, consequatur iure, quia quo dolor explicabo fugiat quod ut soluta omnis asperiores. Alias ut, voluptates delectus.</p>
+					<button href="#" class="learn-more-button">Learn More</button>
+				</div>
 			</div>
 		</div>
 	</div>
@@ -362,33 +406,35 @@ Template Name: Homepage
 		</div>
 	</div>
 </div>
-<div class="container">
-	<div class="row">
-		<div class="col-lg-12 testimonials">
-			<h2>Testimonials</h2>
-		</div>
-	</div>
-	<div class="row">
-		<div class="col-lg-4">
-			<div id="testimonials">
-				<q>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book...</q>
-				<p>By Carol G.</p>
+<div class="container-fluid parallax">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12 testimonials">
+				<h2>Testimonials</h2>
 			</div>
-			<div id="testimonials-bottom"></div>
 		</div>
-		<div class="col-lg-4">
-			<div id="testimonials">
-				<q>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book...</q>
-				<p>By Carol G.</p>
+		<div class="row">
+			<div class="col-lg-4">
+				<div id="testimonials">
+					<q>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book...</q>
+					<p>By Carol G.</p>
+				</div>
+				<div id="testimonials-bottom"></div>
 			</div>
-			<div id="testimonials-bottom"></div>
-		</div>
-		<div class="col-lg-4">
-			<div id="testimonials">
-				<q>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book...</q>
-				<p>By Carol G.</p>
+			<div class="col-lg-4">
+				<div id="testimonials">
+					<q>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book...</q>
+					<p>By Carol G.</p>
+				</div>
+				<div id="testimonials-bottom"></div>
 			</div>
-			<div id="testimonials-bottom"></div>
+			<div class="col-lg-4">
+				<div id="testimonials">
+					<q>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book...</q>
+					<p>By Carol G.</p>
+				</div>
+				<div id="testimonials-bottom"></div>
+			</div>
 		</div>
 	</div>
 </div>
@@ -427,6 +473,34 @@ Template Name: Homepage
 					<p>Service Slogan</p>
 					<a>Learn More</a>
 				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="container blogger">
+	<div class="row">
+		<div class="col-lg-12 faqs">
+			<h2>Recent Posts</h2>
+		</div>
+		<div class="col-lg-4">
+			<div id="blog-wrapper">
+				<img src="<?php echo get_template_directory_uri(); ?>/img/post-img.jpg">
+				<h3>Blog post title 1</h3>
+				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
+			</div>
+		</div>
+		<div class="col-lg-4">
+			<div id="blog-wrapper">
+				<img src="<?php echo get_template_directory_uri(); ?>/img/post-img.jpg">
+				<h3>Blog post title 1</h3>
+				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
+			</div>
+		</div>
+		<div class="col-lg-4">
+			<div id="blog-wrapper">
+				<img src="<?php echo get_template_directory_uri(); ?>/img/post-img.jpg">
+				<h3>Blog post title 1</h3>
+				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
 			</div>
 		</div>
 	</div>
