@@ -121,6 +121,97 @@ header #trustpilot {
     border-bottom: 2px solid #c90005;
 }
 
+
+/**********
+Footer
+**********/
+
+footer#footer {
+	background-color: #333;
+	padding: 25px 0;
+}
+
+footer#footer .footer-sec-one {
+	color: #fff;
+}
+
+#footer-logo {
+    width: 150px;
+}
+
+.lineone {
+    font-size: 21px;
+    padding: 10px 0 2px 0;
+    margin: 0;
+}
+
+.linetwo {
+    font-size: 28px;
+    font-weight: bold;
+    padding: 0;
+}
+
+.linetwo a {
+	color: #fff;
+}
+
+.footer {
+	padding: 15px 0;
+	border-top: 1px solid #fff;
+	border-bottom: 1px solid #fff;
+}
+
+.footer-socials .fab {
+    color: #fff;
+    font-size: 16px;
+    padding: 10px;
+    border: 2px solid #fff;
+    min-width: 42px;
+    text-align: center;
+}
+
+.footer-sec-two h2 {
+	text-align: left;
+	font-weight: 700;
+	font-size: 28px;
+	color: #fff;
+}
+
+.footer-sec-two li a {
+    color: #fff;
+}
+
+.footer-sec-three h2 {
+	text-align: right;
+	font-weight: 700;
+	font-size: 28px;
+	color: #fff;
+}
+
+.footer-sec-three label {
+	color: #fff;
+}
+
+.footer-sec-three input {
+	padding: 10px 15px;
+	border: none;
+	border-radius: 5px;
+	margin: 10px 0 0 0;
+	display: block;
+	width: 350px;
+}
+
+.footer-sec-three button {
+	padding: 5px 10px;
+    border: 2px solid #fff;
+    background: none;
+    color: #fff;
+    font-size: 23px;
+    margin: 0 0 10px 0;
+    float: right;
+}
+
+
 /**********
 Dropdowns
 **********/

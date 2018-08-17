@@ -80,42 +80,6 @@ Template Name: Homepage
 		</div>
 	</div>
 </div>
-<!--<div class="container-fluid" id="five-car-section">
-	<div class="row">
-		<div class="col-lg-6" id="special-offers">
-			<div class="special-offers-wrapper">
-				<span class="special-offers-title">Special Offers</span><br>
-				<span class="special-offers-title-sub">View Our Special Offers</span>
-			</div>
-		</div>
-		<div class="col-lg-6" id="about-us">
-			<div class="special-offers-wrapper-two">
-				<span class="special-offers-title-two">About Us</span><br>
-				<span class="special-offers-title-sub-two">Learn More About Us</span>
-			</div>
-		</div>
-	</div>
-	<div class="row">
-		<div class="col-lg-4" id="about-leasing">
-			<div class="about-leasing-wrapper">
-				<span class="about-leasing-wrapper-title">All About Leasing</span><br>
-				<span class="about-leasing-wrapper-sub">Learn all you need to about leasing a car here</span>
-			</div>
-		</div>
-		<div class="col-lg-4" id="van-leasing">
-			<div class="van-leasing-wrapper">
-				<span class="van-leasing-wrapper-title">Van Lease Deals</span><br>
-				<span class="van-leasing-wrapper-sub">We can help you lease a van for business or personal use</span>
-			</div>
-		</div>
-		<div class="col-lg-4" id="electric-leasing">
-			<div class="electric-leasing-wrapper">
-				<span class="electric-leasing-wrapper-title">Electric Cars</span><br>
-				<span class="electric-leasing-wrapper-sub">Go electric with one of our amazing electric car lease deals</span>
-			</div>
-		</div>
-	</div>
-</div>-->
 <div class="container-fluid five-boxes">
 	<div class="container">
 		<div class="col-lg-3">
@@ -506,4 +470,4 @@ Template Name: Homepage
 	</div>
 </div>
 
-<?php get_footer(); ?> 		
+<?php get_footer(); ?>
