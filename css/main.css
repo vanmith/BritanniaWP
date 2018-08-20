@@ -196,9 +196,8 @@ footer#footer .footer-sec-one {
 	padding: 10px 15px;
 	border: none;
 	border-radius: 5px;
-	margin: 10px 0 0 0;
-	display: block;
-	width: 350px;
+	margin: 10px 0 10px 0;
+	width: 100%;
 }
 
 .footer-sec-three button {
@@ -209,6 +208,10 @@ footer#footer .footer-sec-one {
     font-size: 23px;
     margin: 0 0 10px 0;
     float: right;
+}
+
+.footer-sec-three form {
+	width: 100%;
 }
 
 
@@ -295,6 +298,21 @@ a.manu-all {
 	#top-strap-ad-bottom-bar {
 		min-height: 50px!important;
 		height: 100%!important;
+	}
+	#top-strap-ad h1#main-heading {
+		padding-top: 0!important;
+	}
+	#top-strap-ad {
+		height: 100%!important;
+	}
+	.bottom-bar-pros {
+		background-image: none!important;
+		padding-left: 0!important;
+	}
+	#timeline {
+		background-image: none!important;
+		padding-left: 0!important;
+		margin: 0!important;
 	}
 }
 
@@ -458,6 +476,7 @@ Homepage
 
 .moreinfo-inner {
 	padding: 10px 15px;
+	margin: 0 0 10px 0;
 }
 
 .moreinfo-inner h3 {
@@ -776,8 +795,8 @@ Services
 .service-box a {
 	padding: 10px 15px;
 	margin: 60px 0;
-	background-color: red;
-	color: #de0308;
+	background-color: #de0308;
+	color: #fff;
 	border-radius: 5px;
 	border-bottom: 4px solid #b00004;
 	text-align: center;
@@ -811,9 +830,10 @@ Services
 }
 
 #blog-wrapper {
-    border: 1px solid #333;
+    border: 1px solid #b0b0b0;
     border-radius: 5px;
-    background-color: #d5d5d5;
+    background-color: #f6f6f6;
+    margin: 0 0 10px 0;
 }
 
 #blog-wrapper img {
@@ -824,6 +844,7 @@ Services
     padding: 0 10px;
     font-size: 18px;
     font-weight: 700;
+    color: #333;
 }
 
 #blog-wrapper p {
@@ -832,6 +853,19 @@ Services
     padding-top: 0;
     font-size: 14px;
     line-height: 22px;
+    color: #333;
+}
+
+#blog-wrapper a {
+	text-decoration: none;
+}
+
+#blog-wrapper a:hover {
+	text-decoration: none;
+}
+
+#blog-wrapper img:hover {
+
 }
 
 .blogger {

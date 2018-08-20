@@ -51,7 +51,7 @@ Template Name: Homepage
 			<p>We are a multi-brand specialist in personal car finance. We offer a comprehensive nationwide service with deals starting from under £100 per month.We’ve been supplying and delivering cars all around the UK for 20 years. Our experienced, knowledgeable and friendly sales team will help find a deal suitable for your budget and requirements. </p>
 			<p>We are a multi-brand specialist in personal car finance. We offer a comprehensive nationwide service with deals starting from under £100 per month.We’ve been supplying and delivering cars all around the UK for 20 years. Our experienced, knowledgeable and friendly sales team will help find a deal suitable for your budget and requirements. </p>
 			<h5>Check out the latest Audi Q8</h5>
-			<iframe width="560" height="315" src="https://www.youtube.com/embed/NZfYC4lgEFc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+			<iframe width="100%" height="315" src="https://www.youtube.com/embed/NZfYC4lgEFc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 		</div>
 		<div class="col-lg-1">
 
@@ -448,23 +448,29 @@ Template Name: Homepage
 		</div>
 		<div class="col-lg-4">
 			<div id="blog-wrapper">
-				<img src="<?php echo get_template_directory_uri(); ?>/img/post-img.jpg">
-				<h3>Blog post title 1</h3>
-				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
+				<a href="#" class="blog-link">
+					<img src="<?php echo get_template_directory_uri(); ?>/img/post-img.png">
+					<h3>Blog post title 1</h3>
+					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
+				</a>
 			</div>
 		</div>
 		<div class="col-lg-4">
 			<div id="blog-wrapper">
-				<img src="<?php echo get_template_directory_uri(); ?>/img/post-img.jpg">
-				<h3>Blog post title 1</h3>
-				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
+				<a href="#" class="blog-link">
+					<img src="<?php echo get_template_directory_uri(); ?>/img/post-img.png">
+					<h3>Blog post title 1</h3>
+					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
+				</a>
 			</div>
 		</div>
 		<div class="col-lg-4">
 			<div id="blog-wrapper">
-				<img src="<?php echo get_template_directory_uri(); ?>/img/post-img.jpg">
-				<h3>Blog post title 1</h3>
-				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
+				<a href="#" class="blog-link">
+					<img src="<?php echo get_template_directory_uri(); ?>/img/post-img.png">
+					<h3>Blog post title 1</h3>
+					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
+				</a>
 			</div>
 		</div>
 	</div>
