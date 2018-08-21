@@ -1,3 +1,18 @@
+<?php 
+
+// 1. customize ACF path
+add_filter('acf/settings/path', 'my_acf_settings_path');
+ 
+function my_acf_settings_path( $path ) {
+ 
+    // update path
+    $path = get_stylesheet_directory() . '/acf/';
+    
+    // return
+    return $path;
+    
+}
+
 <?php if( function_exists('acf_add_local_field_group') ):
 
 acf_add_local_field_group(array(
