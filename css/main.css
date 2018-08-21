@@ -136,7 +136,8 @@ footer#footer .footer-sec-one {
 }
 
 #footer-logo {
-    width: 150px;
+    height: 100%;
+    max-height: 75px;
 }
 
 .lineone {
@@ -214,6 +215,16 @@ footer#footer .footer-sec-one {
 	width: 100%;
 }
 
+.footer address {
+    color: #fff;
+}
+
+.footer p {
+    margin-bottom: 0 !important;
+    color: #787878;
+    font-size: 12px;
+}
+
 
 /**********
 Dropdowns
@@ -260,68 +271,6 @@ a.manu-all {
 	font-weight: lighter!important;
 	text-decoration: underline!important;
 }
-
-@media only screen and (max-width: 1000px) {
-	#nav-bar {
-		min-height: 50px;
-		height: 100%;
-	}
-	#main-nav ul li {
-		width: 100%;
-		text-align: left;
-		border-right: none;
-		border-bottom: 1px solid #fff;
-		padding: 0 20px;
-	}
-	.second-nav {
-		display: none;
-	}
-	a.responsivenavopener {	
-	    float: right;
-	    line-height: 50px;
-	    color: #fff;
-	    padding-right: 20px;
-	}
-	#top-bar {
-		display: none;
-	}
-	#logo {
-		margin: 0 auto;
-		display: block;
-	}
-	#phone-number {
-		text-align: center!important;
-	}
-	.manu-logo {
-		width: 40%!important;
-	}
-	#top-strap-ad-bottom-bar {
-		min-height: 50px!important;
-		height: 100%!important;
-	}
-	#top-strap-ad h1#main-heading {
-		padding-top: 0!important;
-	}
-	#top-strap-ad {
-		height: 100%!important;
-	}
-	.bottom-bar-pros {
-		background-image: none!important;
-		padding-left: 0!important;
-	}
-	#timeline {
-		background-image: none!important;
-		padding-left: 0!important;
-		margin: 0!important;
-	}
-}
-
-@media only screen and (min-width: 1000px) {
-	.responsivenavopener {
-		display: none;
-	}
-}
-
 
 /*********
 Car Slider
@@ -393,7 +342,6 @@ Homepage
 }
 
 .bottom-bar-pros {
-    background-image: url(/wp-content/themes/BritanniaWP/img/price.png);
     padding-left: 65px;
     background-size: contain;
     background-repeat: no-repeat;
@@ -870,4 +818,74 @@ Services
 
 .blogger {
 	margin-bottom: 50px;
+}
+
+
+
+/***********
+Mobile Shit
+***********/
+
+@media only screen and (max-width: 1000px) {
+	#nav-bar {
+		min-height: 50px;
+		height: 100%;
+	}
+	#main-nav ul li {
+		width: 100%;
+		text-align: left;
+		border-right: none;
+		border-bottom: 1px solid #fff;
+		padding: 0 20px;
+	}
+	.second-nav {
+		display: none;
+	}
+	a.responsivenavopener {	
+	    float: right;
+	    line-height: 50px;
+	    color: #fff;
+	    padding-right: 20px;
+	}
+	#top-bar {
+		display: none;
+	}
+	#logo {
+		margin: 0 auto;
+		display: block;
+	}
+	#phone-number {
+		text-align: center!important;
+	}
+	.manu-logo {
+		width: 40%!important;
+	}
+	#top-strap-ad-bottom-bar {
+		min-height: 50px!important;
+		height: 100%!important;
+	}
+	#top-strap-ad h1#main-heading {
+		padding-top: 0!important;
+	}
+	#top-strap-ad {
+		height: 100%!important;
+	}
+	.bottom-bar-pros {
+		background-image: none!important;
+		padding-left: 0!important;
+	}
+	#timeline {
+		background-image: none!important;
+		padding-left: 0!important;
+		margin: 0!important;
+	}
+	#home-manufacts {
+		display: none;
+	}
+}
+
+@media only screen and (min-width: 1000px) {
+	.responsivenavopener {
+		display: none;
+	}
 }

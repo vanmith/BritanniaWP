@@ -42,10 +42,8 @@
 				<div class="col-lg-4">
 					<a href="/"><img src="<?php echo get_template_directory_uri(); ?>/img/logo.png" alt="Footer Logo" id="footer-logo"></a>
 				</div>
-				<div class="col-lg-4">
-					<address>
-						17 Stoney Ln, Wilmslow SK9 6LG
-					</address>
+				<div class="col-lg-8">
+					<p>Britannia Car Finance Ltd is authorised and regulated by the Financial Conduct Authority, we are a credit broker and not a lender. Registered No : 619315. Registered in England & Wales with company number : 07078910 | Data Protection No : Z3637100 | VAT No : 159 9680 46 | Registered Office : Britannia Car Finance Ltd, Westminster House, 10 Westminster Road, Macclesfield, SK10 1BX - Copyright © 2018 Britannia Car Finance Ltd, All rights reserved.</p>
 				</div>
 			</div>
 		</div>
