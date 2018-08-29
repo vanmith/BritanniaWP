@@ -889,3 +889,73 @@ Mobile Shit
 		display: none;
 	}
 }
+
+
+/**************
+Car Lease Page
+**************/
+
+h1.car-leasing-title {
+	text-align: center;
+	font-weight: 700;
+	font-size: 28px;
+}
+
+.car-wrapper {
+    background-color: #f1f1f1;
+    margin: 10px 0;
+    padding: 0;
+}
+
+.car-wrapper img {
+	width: 100%;
+	padding: 10px 15px;
+}
+
+.car-wrapper p.car-title {
+	font-size: 20px;
+	font-weight: bolder;
+}
+
+.car-strap {
+    padding: 2px 5px;
+    width: 100%;
+    background-color: darkgray;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.car-content-wrapper {
+    background-color: #f1f1f1;
+    padding: 10px 15px;
+}
+
+.car-content-wrapper-left {
+    background-color: #f1f1f1;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    min-height: 50px;
+}
+
+.car-content-wrapper-right {
+    background-color: #f1f1f1;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    min-height: 50px;
+}
+
+.compare {
+
+    text-align: center;
+    font-size: 40px;
+    border: 3px solid;
+    border-radius: 5px;
+    width: 45px;
+    margin: 0 auto;
+    line-height: 45px;
+
+}
+
+.car-content-wrapper a {
+	color: #333;
+}

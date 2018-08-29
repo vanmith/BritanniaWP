@@ -18,7 +18,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-6">
-					<a href="/" class="top-car-nav top-car-nav-active"><i class="fas fa-car"></i> Car Deals</a>
+					<a href="/car-lease-deals/" class="top-car-nav top-car-nav-active"><i class="fas fa-car"></i> Car Deals</a>
 					<a href="#" class="top-car-nav"><i class="fas fa-shuttle-van"></i> Van Deals</a>
 				</div>
 				<div class="col-lg-6">

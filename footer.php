@@ -18,7 +18,7 @@
 					<h2>Quick Links</h2>
 					<ul>
 						<li><a href="">Home</a></li>
-						<li><a href="">Personal Lease</a></li>
+						<li><a href="/car-lease-deals/">Personal Lease</a></li>
 						<li><a href="">Business Lease</a></li>
 						<li><a href="">Contact Us</a></li>
 						<li><a href="">About Us</a></li>
