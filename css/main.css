@@ -1216,19 +1216,19 @@ input[type="checkbox"] {
 	margin: 0 5px 0 0;
 }
 
-.yes-main p {
+.yes-main label {
 	font-size: 11px;
 }
 
-.yes-main p b {
+.yes-main label b {
 	font-size: 12px;
 }
 
-.no-main p {
+.no-main label {
 	font-size: 11px;
 }
 
-.no-main p b {
+.no-main label b {
 	font-size: 12px;
 }
 
@@ -1300,4 +1300,67 @@ input[type="checkbox"] {
     background-color: transparent;
     padding: 10px 5px;
     text-align: left;
+}
+
+/* The Modal (background) */
+.modal2 {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content2 {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 50%;
+}
+
+/* The Close Button */
+.close2 {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close2:hover,
+.close2:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#myBtn2 {
+    width: 100%;
+    border: 2px solid #c90005;
+    border-radius: 5px;
+    background-color: transparent;
+    padding: 10px 5px;
+    text-align: left;
+}
+
+
+.modal-content2 li {
+    padding: 10px 5px;
+    border: 1px solid #f1f1f1;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+
+.modal-content li {
+    padding: 10px 5px;
+    border: 1px solid #f1f1f1;
+    margin: 10px 0;
+    border-radius: 5px;
 }

@@ -149,14 +149,14 @@
 					</div>
 					<div class="col-md-6 remove-right">
 						<div class="yes-main">
-							<input type="checkbox">
-							<p><b>Yes</b> - I want to reduce potential stress with vehicle maintenance and servicing.</p>
+							<input type="checkbox"  id="checkbox-yes">
+							<label for="checkbox-yes"><b>Yes</b> - I want to reduce potential stress with vehicle maintenance and servicing.</label>
 						</div>
 					</div>
 					<div class="col-md-6 remove-left">
 						<div class="no-main">
-							<input type="checkbox">
-							<p><b>No</b> - I understand I will be responsible for the maintenance and servicing</p>
+							<input type="checkbox" id="checkbox-no">
+							<label for="checkbox-no"><b>No</b> - I understand I will be responsible for the maintenance and servicing</label>
 						</div>
 					</div>
 				</div>
@@ -172,9 +172,9 @@
 					  <!-- Modal content -->
 					  <div class="modal-content">
 					    <ul>
-					    	<li><input type="checkbox"> Red</li>
-					    	<li><input type="checkbox"> Blue</li>
-					    	<li><input type="checkbox"> Grey</li>
+					    	<li><label><input type="checkbox"> Red</label></li>
+					    	<li><label><input type="checkbox"> Blue</label></li>
+					    	<li><label><input type="checkbox"> Grey</label></li>
 					    </ul>
 					    <span class="close">&times;</span>
 					  </div>
