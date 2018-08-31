@@ -9,7 +9,7 @@ Template Name: Car Lease Deals
 <div class="container">
 	<div class="row">
 		<div id="wrapper" class="col-lg-12">
-			<h1 class="car-leasing-title">Car Lease Offers</h1>
+			<h1 class="car-leasing-title">Our Lease Deals</h1>
 			<?php
 				if( have_rows('deals') ):
 				while ( have_rows('deals') ) : the_row(); ?>

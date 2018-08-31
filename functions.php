@@ -757,3 +757,29 @@ acf_add_local_field_group(array(
 ));
 
 endif;
+
+
+// Our custom post type function
+function create_posttype() {
+ 
+    register_post_type( 'cars',
+    // CPT Options
+        array(
+            'labels' => array(
+                'name' => __( 'Cars' ),
+                'singular_name' => __( 'Car' )
+            ),
+            'public' => true,
+            'has_archive' => false,
+            'rewrite' => array('slug' => 'cars'),
+        )
+    );
+}
+// Hooking up our function to theme setup
+add_action( 'init', 'create_posttype' );
+
+
+function theme_prefix_rewrite_flush() {
+    flush_rewrite_rules();
+}
+add_action( 'after_switch_theme', 'theme_prefix_rewrite_flush' );

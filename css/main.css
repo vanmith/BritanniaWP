@@ -958,3 +958,140 @@ h1.car-leasing-title {
 .car-content-wrapper a {
 	color: #333;
 }
+
+/*********
+Deals Page
+*********/
+
+/* CSS used here will be applied after bootstrap.css */
+
+.item .thumb {
+	width: 25%;
+	cursor: pointer;
+	float: left;
+}
+
+.item .thumb img {
+	width: 100%;
+	margin: 2px;
+}
+
+.item img {
+	width: 100%;	
+}
+
+.car-title {
+	font-size: 21px;
+	text-align: left;
+	font-weight: bold;
+	border-bottom: 1px solid #f1f1f1;
+	padding: 5px 0;
+}
+
+.car-details p {
+    font-size: 16px;
+}
+
+.car-details b {
+    font-size: 22px;
+    color: #c90005;
+}
+
+.quote-button {
+    width: 100%;
+    font-size: 14px;
+    color: #fff;
+    padding: 10px 15px;
+    text-align: center;
+    background-color: #333;
+    border: none;
+    border-radius: 5px;
+    border-bottom: 2px solid #1b1b1b;
+    margin: 10px 0;
+}
+
+.call-back-button {
+    width: 100%;
+    color: #333;
+    padding: 10px 15px;
+    border: 2px solid #333;
+    border-radius: 5px;
+    background-color: transparent;
+}
+
+.business-button {
+	border: none;
+	padding: 10px 3px;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+
+.personal-button {
+	border: none;
+	padding: 10px 10px;
+	background-color: #c90005;
+	color: #fff;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	font-weight: bold;
+}
+
+.contract-length-1 {
+    border: none;
+    padding: 10px 6px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.contract-length-2 {
+    padding: 10px 3px;
+    border: none;
+}
+
+.contract-length-3 {
+    padding: 10px 10px;
+    border: 0;
+    background-color: #c90005;
+    color: #fff;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.alter-price {
+	margin-bottom: 10px;
+}
+
+#small-print h3 {
+	font-size: 16px;
+	font-weight: bold;
+}
+
+#small-print p {
+	font-size: 12px;
+}
+
+
+#vehicle-details table {
+	width: 100%;
+    font-size: 16px;
+    border: 1px solid #f1f1f1;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+
+tr#header th {
+    padding: 10px 15px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    background-color: #f1f1f1;
+    border: 1px solid #f1f1f1;
+}
+
+#vehicle-details td {
+	padding: 10px;
+	color: #333;
+	border: 2px solid #f1f1f1;
+}
